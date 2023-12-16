@@ -1,190 +1,69 @@
-<html>
-	<head>
-  <!--
+<html lang="ru">
+<meta charset="utf-8">
+<body bgcolor="#FFFACD">
+    <p id="para1">Параграф 1</p> 
+      <p id="para2">Параграф 2</p> 
+      <p id="para3">Параграф 3</p> 
+    <p>uguyguyg</p>
+<h1>МОИ ЛЮБИМЫЕ ВЕЩИ</h1>
+<button class="glow-on-hover" type="button">НАВЕДИТЕ НА МЕНЯ, ЗАТЕМ НАЖМИТЕ НА МЕНЯ!</button>
+<h2>1 СПАТЬ</h2>
+<h3>2СпАтЬ</h3>
+<h4>3 КУШаТЬ</h4>
+<h5>4Пить ЛИмоНАд БУратино</h5>
+<h6>5 СПАТЬ СПАТЬ СПАТЬ и ТОЧка!!!!!!!</h6>
+<a href="https://html-css-js.com/">Сайт помощьник1</a>.
+<a href="https://www.w3schools.com/">Сайт помощьник2</a>
+<font face=”Arial” size=”8” color=”red” >Я люблю котиков и липтон , но больше всего я ЛюБлЮ СПАТЬ</font>
+<font color=’#191970’>Котики = спать , я = спать</font>
+<MARQUEE BEHAVIOR=slide>
+я люблю спать
+</MARQUEE>
+<MARQUEE DIRECTION=right>
+И липтон
+</MARQUEE>
+<MARQUEE BGCOLOR=##682B4>
+это синий это факт нет блин крассный+
+</MARQUEE>
 
-  Amazon S3 Bucket listing.
+   <link rel="stylesheet" href="style.css"> 
 
+<H2>ЭТО правдо список</H2>
 
-  Copyright (C) 2008 Francesco Pasqualini
-
-      This program is free software: you can redistribute it and/or modify
-      it under the terms of the GNU General Public License as published by
-      the Free Software Foundation, either version 3 of the License, or
-      (at your option) any later version.
-
-      This program is distributed in the hope that it will be useful,
-      but WITHOUT ANY WARRANTY; without even the implied warranty of
-      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-      GNU General Public License for more details.
-
-      You should have received a copy of the GNU General Public License
-      along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-  -->
-  <!--
-
-  Modified by Nolan Lawson!  (http://nolanlawson.com).  I'm keeping the spirit of the
-  GPL alive by issuing this with the same license!
-
-  -->
-
-	  <title>Bucket loading...</title>
-	  <link href="//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet"/>
-	  <style>
-	    .hide-while-loading {
-	      display:none;
-	    }
-	    .i-expand-collapse {
-	      opacity: 0.3;
-	    }
-	    .i-file-or-folder {
-	      margin-right: 4px;
-	    }
-	  </style>
-
-	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.1.2/handlebars.min.js"></script>
-	  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
-	</head>
-	<body>
-
-	  <div class="container">
-  	  <h1 id="h1-title">Bucket loading...</h1>
-  	  <table class="hide-while-loading table table-striped">
-  	    <thead>
-  	      <tr>
-  	        <th>Name</th>
-  	        <th>Date Modified</th>
-  	        <th>Size</th>
-  	        <th>Type</th>
-  	      </tr>
-  	    </thead>
-  	    <tbody id="tbody-content">
-  	    </tbody>
-  	  </table>
-	  </div>
-
-  <script id="file-or-folder" type="text/x-handlebars-template">
-    <tr>
-      {{#if isFolder}}
-        <td><i class="icon-chevron-down i-expand-collapse" style="margin-left:calc(({{numLevels}} - 1) * 16px)");></i><i class="icon-folder-open i-file-or-folder" style="margin-left:4px;"></i>
-        {{simpleFilename}}</td>
-      {{else}}
-        <td><i class="icon-file i-file-or-folder"  style="margin-left:calc(({{numLevels}} * 16px) + 4px);"></i>
-        <a href="{{url}}">{{simpleFilename}}</a></td>
-      {{/if}}
-      <td>{{friendlyLastModified}}</td>
-
-      <td>{{friendlySizeName}}</td>
-      <td>{{type}}</td>
-    </tr>
-  </script>
-	<script>
-	(function($){
-	  "use strict";
-	  var FOLDER_PATTERN = new RegExp('_\\$folder\\$$');
-	  var TYPE_PATTERN = new RegExp('\\.([^\\.\\s]{1,10})$');
-		var KB = 1024;
-		var MB = 1000000;
-		var GB = 1000000000;
-
-    // replace last /index.html to get bucket root
-	  var bucketUrl = document.location.href.replace(/\/[^\/]+$/, '');
-		var compiledTemplate;
-
-    // return e.g. 1.2KB, 1.3MB, 2GB, etc.
-	  function toFriendlySizeName(size){
-	    if (size === 0) {
-	      return '';
-	    } else if (size < KB) {
-	      return size + ' B';
-	    } else if (size < MB) {
-	      return (size / KB).toFixed(0) + ' KB';
-	    } else if (size < GB) {
-	      return (size / MB).toFixed(2) + ' MB';
-	    }
-	    return (size / GB).toFixed(2) + ' GB';
-	  }
+<ol>
+<li><h3>это интерестно</h3></li>
+<ol>
+<li><h3>html</h3></li>
+<li><h3>CSS</h3></li>
+<li><h3>JS</h3></li>
+</ol>
+<li><h3>Мы это изучаем</h3></li>
+<ul>
+<li><h3>Мы хорошие</h3></li>
+<li><h3>Кто так не считают идут в капусту</h3></li>
+<li><h3>Третий вариант не существует</h3></li>
+</ul>
+</ol>
+<img src="example.jpg" alt="Пример изображения" class="img-example"> 
+      <p data-type="info">Информационный текст</p> 
+      <p data-type="warning">Предупреждающий текст</p> 
+      <p data-type="error">Текст ошибки</p> 
+<img align="right" src="2.jpg" weight=400 height=400>
+<a href="about.html">мо компа</a>
+<A HREF=INDEX2.HTML target="_top"><img src="2.jpg"></A>
 
 
-	  // POJO describing a file or a folder
-	  function FileOrFolder(lastModified, etag, size, key){
-	    var self = this;
-
-	    self.lastModified = lastModified;
-	    self.etag = etag;
-	    self.size = size;
-	    self.key = key;
-
-	    // init logic
-	    self.isFolder = FOLDER_PATTERN.test(self.key);
-	    self.filename = self.isFolder ? self.key.replace(FOLDER_PATTERN,'') : self.key;
-	    self.url = bucketUrl + '/' + self.key;
-	    self.levels = self.filename.split('/');
-	    self.numLevels = self.levels.length;
-	    self.simpleFilename = self.levels[self.numLevels - 1];
-	    self.friendlySizeName = toFriendlySizeName(parseInt(self.size,10));
-	    var foundTypes = TYPE_PATTERN.exec(self.simpleFilename);
-	    self.type = self.isFolder ? 'Folder ' : (foundTypes ? (foundTypes[1].toUpperCase() + ' file') : 'Unknown');
-	    self.friendlyLastModified = moment(lastModified).format('MMM Do YYYY, hh:mm:ss a');
-	  }
-
-		function onAjaxSuccess(xml) {
-			var listBucketResult = $(xml).find('ListBucketResult');
-
-			// set a reasonable title instead of "Bucket loading"
-			var title = 'Index of bucket "' + listBucketResult.find('Name').text() + '"';
-			document.title = title;
-			$('#h1-title').text(title);
-
-			var $tbodyContent = $('#tbody-content');
-
-			// create the file or folder objects
-
-			var filesOrFolders = [];
-
-			listBucketResult.find('Contents').each(function(idx, element){
-
-				var $element = $(element);
-
-				var fileOrFolder = new FileOrFolder(
-					 $element.find('LastModified').text(),
-					 $element.find('ETag').text(),
-					 $element.find('Size').text(),
-					 $element.find('Key').text()
-				);
-
-				filesOrFolders.push(fileOrFolder);
-			});
-
-			// sort
-			filesOrFolders.sort(function(left, right){
-				if (left.levels === right.levels) {
-					return 0;
-				} else if (left.levels < right.levels) {
-					return -1;
-				}
-				return 1;
-			});
-
-			// fill in the rows
-			var str = '';
-			for (var i = 0; i < filesOrFolders.length; i ++) {
-				str += compiledTemplate(filesOrFolders[i]);
-			}
-			$tbodyContent.append(str);
-			$('.hide-while-loading').show();
-		}
-
-		$.ajax({
-         url: bucketUrl,
-         success: onAjaxSuccess
-		});
-
-    // compile while ajax is in progress
-		compiledTemplate = Handlebars.compile($('#file-or-folder').html());
-
-	})(jQuery);
-	</script>
-	</body>
+<table width="100%" height="100%" valign="top">
+<tr height="10%" bgcolor="silver">
+<td colspan="3"><h3>Это не флаг Бразилии</h3></td>
+</tr>
+<tr height="80%">
+<td width="15%" bgcolor="#A52A2A"><h2>Веля топ</h2></td>
+<td bgcolor="yellow"><h2>Бразилия топ</h2></td>
+<td width="15%" bgcolor='#FFF5EE'><h2>Корея топ
+Stray Kids</h2></td>
+</tr>
+<tr bgcolor="silver">
+<td colspan="3"></td>
+</table>
 </html>
