@@ -1,0 +1,27 @@
+body {
+	font-family: Tahoma, Verdana, Geneva, sans-serif;
+	margin: 6em 6em;
+	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	float: left;
+	margin-right: 10px;
+}
+li:last-of-type {<br>
+	margin-right: 0;
+}<br>
+
+a {<br>
+	display: block;
+}
+
+img {
+	width: 200px;
+	height: 150px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+}
