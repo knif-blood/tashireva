@@ -2,6 +2,7 @@ body {
 	font-family: Tahoma, Verdana, Geneva, sans-serif;
 	margin: 6em 6em;
 	font-weight: bold;
+	color="red";
 }
 ul {
 	list-style-type: none;
