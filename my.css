@@ -1,45 +1,19 @@
-Дипломная работа Таширевой Полины
-Animation Options
-Text:
-Дипломная работа Таширевой Полины
-Font:
-Russo One
-Font Size: 50px
 
-Animation Speed: 5s
-
-Background Color:
-#FFFFFF
-Stroke Color:
-#A0250C
-Fill Color:
-#30CC18
-CSS Code
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-
-svg {
-	font-family: "Russo One", sans-serif;
-	width: 100%; height: 100%;
+.rainbow-text {
+    font-family: Arial Black, Gadget, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
 }
-svg text {
-	animation: stroke 5s infinite alternate;
-	stroke-width: 2;
-	stroke: #A0250C;
-	font-size: 50px;
+.rainbow-text .block-line > span {
+    display: inline-block;
 }
-@keyframes stroke {
-	0%   {
-		fill: rgba(48,204,24,0); stroke: rgba(160,37,12,1);
-		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-	}
-	70%  {fill: rgba(48,204,24,0); stroke: rgba(160,37,12,1); }
-	80%  {fill: rgba(48,204,24,0); stroke: rgba(160,37,12,1); stroke-width: 3; }
-	100% {
-		fill: rgba(48,204,24,1); stroke: rgba(160,37,12,0);
-		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-	}
+span.block-line > span {
+    background-image: linear-gradient(90deg,#0600ff,#4200ff,#00ff6d,#7fff00,#75ff00,#9600ff,#2fff00,#00ff46,#006bff,#ff00d3);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
-
 .wrapper {background-color: #FFFFFF};
 
 
