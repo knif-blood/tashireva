@@ -14,7 +14,7 @@ span.block-line > span {
     -webkit-background-clip: text;
     background-clip: text;
 }
-.wrapper {background-color: ##000000};
+.wrapper {background-color: #000000};
 
 
 body {
@@ -46,10 +46,10 @@ img {
 	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
 }
 p {
-background: #FFFFFF;
+background: ##000000;
 text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 color: #00FF00;
-background: #FFFFFF;
+background: #000000;
 }
 }
 h1{color:#666600;}
