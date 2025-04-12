@@ -10,7 +10,7 @@
 }
 span.block-line > span {
     background-image: linear-gradient(90deg,#0600ff,#4200ff,#00ff6d,#7fff00,#75ff00,#9600ff,#2fff00,#00ff46,#006bff,#ff00d3);
-    color: #0000;
+    color: #ffffff;
     -webkit-background-clip: text;
     background-clip: text;
 }
