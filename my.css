@@ -21,7 +21,7 @@ body {
 	font-family: Tahoma, Verdana, Geneva, sans-serif;
 	margin: 6em 6em;
 	font-weight: bold;
-	color:black;
+	color:white;
 }
 ul {
 	list-style-type: none;
@@ -52,4 +52,4 @@ color: #00FF00;
 background: #ffffff;
 }
 }
-h1{color:#666600;}
+h1{color:#ffffff;}
