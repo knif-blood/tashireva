@@ -1,6 +1,6 @@
 .cssFont_1 {
 font-family: SimSun;
-font-size: 40px;
+font-size: 35px;
 letter-spacing: 0px;
 word-spacing: 0px;
 color: #ff0000;
@@ -9,7 +9,7 @@ text-decoration: underline;
 font-style: italic;
 font-variant: small-caps;
 text-transform: capitalize;
-} 
+}
 
 }
 span.block-line > span {
