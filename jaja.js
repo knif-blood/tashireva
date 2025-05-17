@@ -1,3 +1,4 @@
+<script src="jaja.js"></script>
 
 let sign = prompt("What's your sign?");
 
